@@ -1,0 +1,32 @@
+html {font-size:62.5%}/* this sets the default font
+size to 10px  em= 10px*/
+
+h1 {font-size:4em;
+    background-color: white;
+    width:15em;
+    height:4em;
+   
+    } /* the h1 is 4*10=40px */
+h2 {font-size:3em}/* the h2 is 3*10=30px */
+p {font-size:2em;
+   width:20em} /*paragraph font is 12px or 1.2*10 */ 
+a {font-size: 2em}
+
+h1 a {text-decoration: none;}
+
+body {background-color: rgb(197, 224, 216);}
+
+li {background-color:white;
+    width:10em;
+    display:inline;}
+li:hover {background-color:rgb(181, 255, 233)}
+a:visited {color:rgb(206, 171, 177)}
+
+.container {border:2px solid black;
+            /*border-width:2px;
+            border-style:solid;
+            border-color:black;*/
+            width:90%;
+            margin: auto}
+
+nav {margin-left:40em;}
